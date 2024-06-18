@@ -1,5 +1,10 @@
 # String Counter
 
+Short bash commmand
+```
+tr ' ' '\n' < filename.txt | sort | uniq -c | sort -nr | head
+```
+
 ## Overview
 String Counter is a Python script that analyzes the frequency of strings in a file and provides an overview of the most commonly occurring words, sorted from highest to lowest frequency.
 
