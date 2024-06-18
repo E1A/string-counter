@@ -2,7 +2,7 @@
 
 Short bash commmand
 ```
-tr ' ' '\n' < filename.txt | sort | uniq -c | sort -nr | head
+tr ' ' '\n' < example.txt | sort | uniq -c | sort -nr | head
 ```
 
 ## Overview
@@ -13,4 +13,5 @@ To use the script, run the following command:
 
 ```
 python string-counter.py -l example.txt
+./string-counter.sh example.txt
 ```
